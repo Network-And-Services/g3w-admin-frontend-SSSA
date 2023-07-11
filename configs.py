@@ -16,13 +16,13 @@ home_images_default = [
         'author_url': 'https://unsplash.com/@inf1783',
         'subtitle_color': '#fff'
     },
-        {
+    {
         'image': 'rob-bye.jpg',
-        'main_color': '#fff',
-        'main_title_color': '#fff',
+        'main_color': '#000000',
+        'main_title_color': '#000000',
         'author': 'Robert Bye',
         'author_url': 'https://unsplash.com/it/@robertbye',
-        'subtitle_color': '#fff'
+        'subtitle_color': '#000000'
     },
     {
         'image': 'paulo-simoes-mendes.jpg',
