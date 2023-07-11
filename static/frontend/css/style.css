@@ -458,7 +458,7 @@ html.ie7 .icon-home, html.ie7 .icon-admin-home {
 }
 
 .colours.moved .colour_link.hover span {
-	color: #fff;
+	color: red;
 	margin-left: 140px;
 }
 .colours.moved .colour_link span {
@@ -1331,4 +1331,17 @@ h2.groups-section-title {
 .m-top-10 {	margin-top: 10px; }
 .m-top-15 {	margin-top: 10px; }
 .m-top-20 {	margin-top: 10px; }
+
+.colour_link:hover .colour {
+	background-color: white !important;
+	border: 5px solid red;
+	transition: all .2s ease-in-out;
+  }
+  
+  .colour_link:hover .colour span {
+	color: red;
+	transition: all .2s ease-in-out;
+  }
+  
+
 
