@@ -22,21 +22,22 @@ $(document).ready(function($) {
 	$('.circle, .home-block').height($('.colours').height());
 
 	$(window).resize(function() {
-		var window_height = ($(window).height() > 700) ? $(window).height() : 700;
+		var window_height = $(window).height();
 		
 		$(window).on("resize", function(){
 			if($(window).width() < 990){
 				$('.logo').attr("src","https://elearning.santannapisa.it/pluginfile.php/1/theme_adaptable/adaptablemarkettingimages/0/logo-compatto-rosso.png");
 				$('.colour').css('height', Math.floor((window_height/2)/menu_items_number) );
+				$('.colour').last().css('height', Math.floor((window_height/2)/menu_items_number) + (window_height/2)%menu_items_number);
 				$('.colours').css({'height': window_height/2});
 			}
 			else{
 				$('.logo').attr("src","https://elearning.santannapisa.it/pluginfile.php/1/theme_adaptable/logo/1661430207/logo2x.png");
 				$('.colour').css('height', Math.floor(window_height/menu_items_number) );
+				$('.colour').last().css('height', Math.floor(window_height/menu_items_number) + window_height%menu_items_number);
 				$('.colours').css({'height': window_height});
 			}
 		})
-		  
 
 		$('.circle, .home-block').height($('.colours').height());
 		
