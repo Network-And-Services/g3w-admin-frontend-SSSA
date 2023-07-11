@@ -9,14 +9,6 @@ home_images_default = [
         'subtitle_color': '#fff'
     },
     {
-        'image': 'anton-repponen.jpg',
-        'main_color': '#fff',
-        'main_title_color': '#fff',
-        'author': 'Anton Repponen',
-        'author_url': 'https://unsplash.com/@repponen',
-        'subtitle_color': '#fff'
-    },
-    {
         'image': 'karsten-wurth.jpg',
         'main_color': '#fff',
         'main_title_color': '#fff',
@@ -24,13 +16,13 @@ home_images_default = [
         'author_url': 'https://unsplash.com/@inf1783',
         'subtitle_color': '#fff'
     },
-    {
-        'image': 'nasa.jpg',
-        'main_color': '#000',
-        'main_title_color': '#333',
-        'author': 'NASA',
-        'author_url': 'https://unsplash.com/@nasa',
-        'subtitle_color': '#777'
+        {
+        'image': 'rob-bye.jpg',
+        'main_color': '#fff',
+        'main_title_color': '#fff',
+        'author': 'Robert Bye',
+        'author_url': 'https://unsplash.com/it/@robertbye',
+        'subtitle_color': '#fff'
     },
     {
         'image': 'paulo-simoes-mendes.jpg',
@@ -39,21 +31,5 @@ home_images_default = [
         'author': 'Paulo Simões Mendes',
         'author_url': 'https://unsplash.com/@paulozono',
         'subtitle_color': '#fff'
-    },
-    {
-        'image': 'nathan-anderson.jpg',
-        'main_color': '#fff',
-        'main_title_color': '#fff',
-        'author': 'PNathan Anderson',
-        'author_url': 'https://unsplash.com/@nathananderson',
-        'subtitle_color': '#fff'
-    },
-    {
-        'image': 'nathan-anderson2.jpg',
-        'main_color': '#fff',
-        'main_title_color': '#fff',
-        'author': 'PNathan Anderson',
-        'author_url': 'https://unsplash.com/@nathananderson',
-        'subtitle_color': '#fff'
-    },
+    }
 ]
