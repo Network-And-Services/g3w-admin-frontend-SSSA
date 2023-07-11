@@ -1342,6 +1342,13 @@ h2.groups-section-title {
 	color: red;
 	transition: all .2s ease-in-out;
   }
+
+  .logo {
+	margin-left: 45px;
+    margin-top: 50px;
+    max-width: 500px;
+    height: auto;
+  }
   
 
 

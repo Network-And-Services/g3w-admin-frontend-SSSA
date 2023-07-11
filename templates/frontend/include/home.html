@@ -2,17 +2,17 @@
 <div id="home_wrapper">
     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 home">
       <div class="home-block">
+        {% if generaldata.suite_logo %}
+        {% if generaldata.url_suite_logo %}
+        <a href="{{ generaldata.url_suite_logo }}" target="_blank">
+        {% endif %}
+        <img class="logo" src="{{ MEDIA_URL }}{{ generaldata.suite_logo }}" alt="logo"><br>
+        {% if generaldata.url_suite_logo %}
+        </a>
+        {% endif %}
+        {% endif %}
         <h1 class="tk-source-sans-pro">{{ generaldata.title }}</h1>
         <div class="home-content">
-            {% if generaldata.suite_logo %}
-            {% if generaldata.url_suite_logo %}
-            <a href="{{ generaldata.url_suite_logo }}" target="_blank">
-            {% endif %}
-            <img src="{{ MEDIA_URL }}{{ generaldata.suite_logo }}" alt="logo"><br>
-            {% if generaldata.url_suite_logo %}
-            </a>
-            {% endif %}
-            {% endif %}
 
           <br><br>
          <p>{{ generaldata.home_description|safe }}
