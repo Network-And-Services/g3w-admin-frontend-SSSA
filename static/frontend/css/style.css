@@ -1352,10 +1352,11 @@ h2.groups-section-title {
 }
 
 .logo_small {
-	margin-left: 45px;
 	margin-top: 50px;
-	max-width: 500px;
-	max-height: 200px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
